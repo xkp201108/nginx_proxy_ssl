@@ -24,7 +24,7 @@ fi
 
 # 3. 获取用户配置
 echo "------------------------------------------------"
-read -p "🌐 请输入完整域名 (如 test.928287764.xyz): " DOMAIN
+read -p "🌐 请输入完整域名 (如 abc.abc.com): " DOMAIN
 if [[ ! "$DOMAIN" =~ \. ]]; then echo "❌ 域名格式错误"; exit 1; fi
 
 read -p "🔌 宿主机后端端口 (你程序运行的端口，如 8080): " APP_PORT
