@@ -16,7 +16,7 @@ Nginx 一键部署 + 反向代理 + HTTPS 自动证书
 
 ## 使用方法
 **以 root 用户执行：**
-
+- 不用 docker 部署：
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/xkp201108/nginx_proxy_ssl/main/nginx_proxy_ssl.sh)
 ```
